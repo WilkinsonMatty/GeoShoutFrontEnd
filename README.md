@@ -1,26 +1,14 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## GeoShout Front End
 
-## How to use this template
+This is the front end of the GeoShout demo app. 
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+GeoShout is a basic full stack demo app that uses a variety of technologies. The app displays a map and allows the user to click anywhere to create a "shout" at that location (a simple message). At the same time, the app displays the nearest shouts on the map from the user and any other users of the app -- in other words, everyone sees each others' shouts. The shouts are transient and expire after a minute or two.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+See it in action here: 
+[http://138.68.239.89:3000/index.html](http://138.68.239.89:3000/index.html)
 
-### With the Ionic CLI:
+### What's Being Used Up Front:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
-```
-
-Then, to run it, cd into `mySideMenu` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+ - Ionic 3 -- Ionic isn't just for mobile apps
+ - Google Maps JavaScript API - for the maps/shouts (InfoWindows)/markers
+ 
